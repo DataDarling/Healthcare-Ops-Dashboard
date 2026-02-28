@@ -3,11 +3,11 @@ Executive Summary:
 This project analyzes a dataset of 110,000+ medical appointments to identify the operational drivers behind patient "no-shows." By developing an interactive Tableau dashboard, I uncovered critical bottlenecks in scheduling lead times and demographic-specific behaviors, providing hospital leadership with actionable insights to improve clinical capacity and reduce revenue leakage.
 
 
-The Challenge (Situation/Task):
+# The Challenge (Situation/Task):
 Hospital "no-shows" represent a significant loss in provider productivity and patient access. The goal was to identify why 20.2% of appointments were being missed and to determine which operational levers (scheduling, reminders, or location) could be adjusted to improve show rates.
 
 
-The Solution (Action):
+# The Solution (Action):
 
 Data Engineering: Cleaned and transformed raw scheduling data in Tableau, correcting documentation errors in date fields and calculating "Lead Time" (wait time) metrics.
 
@@ -20,7 +20,7 @@ Geospatial Insights: Filtered and sorted 80+ neighborhoods to pinpoint specific 
 Advanced Visualization: Utilized logarithmic trend lines and heatmaps to visualize the correlation between wait times and weekend-adjacent scheduling risks.
 
 
-Key Insights (Result):
+# Key Insights (Result):
 
 The 7-Day Cliff: No-show rates quadruple (from 4.6% to 24.1%) the moment a patient has to wait more than 7 days for an appointment.
 
